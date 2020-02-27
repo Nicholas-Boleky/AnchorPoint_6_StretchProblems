@@ -16,4 +16,24 @@
 
 import UIKit
 
+var postNumber: Int
+
+func youShallBeDivisableByThree(number: Int) -> Int {
+    var number = number
+    if number % 3 == 0 {
+        return number
+    }
+    if (number + 1) % 3 == 0 {
+        number += 1
+        return number
+    }
+    if (number - 1) % 3 == 0 {
+        number -= 1
+        return number
+    }
+    
+}
+
+
+
 //: [Next](@next)

@@ -11,4 +11,20 @@
 
 import Foundation
 
+
+func sumOf(numbers: Int...) -> Int {
+    var total: Int = 0
+    for i in numbers {
+        total += i
+    }
+    return total
+    }
+
+sumOf(numbers: 3,4,3)
+
+//func sum2(numbers: Int...) -> Int {
+//    let sum = numbers.reduce(0 : Int)
+//}
+
+
 //: [Next](@next)
